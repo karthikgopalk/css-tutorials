@@ -204,7 +204,7 @@ div {
   color: red;
 } */
 
-a:link {
+/* a:link {
   color: green;
 }
 a:visited {
@@ -215,4 +215,96 @@ a:hover {
 }
 a:active {
   color: yellow;
+} */
+
+/* .ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+table,
+th,
+td {
+  border: 1px solid green;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  vertical-align: bottom;
+  border-spacing: 10px;
+}
+table:hover {
+  color: blue;
+}
+tr:nth-child(even) {
+  background-color: aqua;
+} */
+
+/* p.a {
+  display: none;
+  visibility: hidden;
+} */
+
+/* p {
+  max-width: 300px;
+  margin: 10px;
+  border: 1px solid red;
+} */
+
+.parent {
+  border: 2px black dotted;
+  display: inline-block;
+}
+.box {
+  display: inline-block;
+  background: red;
+  width: 100px;
+  height: 100px;
+}
+#two {
+  top: 20px;
+  left: 20px;
+  background: green;
+  position: relative;
+}
+.squareBox {
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid yellow;
+  background-color: pink;
+  position: absolute;
+  z-index: 1;
+  overflow: visible;
+  float: right;
+}
+.positionParent {
+  background-color: aqua;
+  padding: 10px;
+}
+.p1 {
+  position: relative;
+  left: 20px;
+  background-color: blue;
+}
+.p2 {
+  background-color: rebeccapurple;
+  position: absolute;
+  left: 20px;
+}
+.p3 {
+  background-color: chartreuse;
+}
+
+div > p {
+  background-color: yellow;
+}
+
+div ~ p {
+  background-color: red;
+}
+div + p {
+  background-color: green;
+  opacity: 0.5;
+}
+.nav {
+  background-color: gray;
 }
